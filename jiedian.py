@@ -31,11 +31,11 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "kkddytd"         # 用户名
-UUID = "a91b59b6-ade4-497d-b4e9-88d184c48048"                     # UUID，留空则自动生成
-PORT = 49999                   # Vmess端口，留空或0则自动生成
-DOMAIN = "free.testlrj.ddns-ip.net"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiODBmMjY5ZmQ1N2QzNzNiMmMzZTBkODc4ODg1NWM5MzIiLCJ0IjoiZmVhMzBmODUtOGY5OC00ZTVmLTkyZTktMmU2OTk2M2E1YzUyIiwicyI6Ik4yTmlZemxpTlRjdE5UVm1PQzAwTjJZekxXRmpORGt0TVdVNE5HUmtORGN3TldObSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+USER_NAME = "111"         # 用户名
+UUID = "b804297c-f03f-4862-8dab-ab723d25c13a"                     # UUID，留空则自动生成
+PORT = 47593                   # Vmess端口，留空或0则自动生成
+DOMAIN = "wcbstrlit.d0b0x.dpdns.org"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiYzhiNmIxOWVmMWJkNjQ1OGU1YWY3MDc5ZDNjMTkxN2IiLCJ0IjoiYzk0ODg4NmMtOTM3My00NTFmLWE4M2EtOTZhNTRiZjYzMGRhIiwicyI6IllqUTRaR1JsWkRBdE16ZzBOUzAwWlRJNUxUZzRNRGN0TW1abE5HRmlPV0UwWTJabSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
@@ -803,7 +803,7 @@ def get_tunnel_domain():
     return None
 
 # 上传订阅到API服务器
-UPLOAD_API = "https://file.zmkk.fun/api/upload"  # 文件上传API
+UPLOAD_API = "https://file.zmkk0000.fun/api/upload"  # 文件上传API
 
 def upload_to_api(subscription_content, user_name):
     """
